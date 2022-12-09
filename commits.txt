@@ -1,0 +1,143 @@
+commit 05b6185a4d789e70c630453416231ced0da90e02
+Author: George Toufenkjian <47486187+GeorgeT-T@users.noreply.github.com>
+Date:   Wed Nov 9 20:50:33 2022 -0500
+
+    Sanitization finished
+
+commit ac2c3ad75ab496972b2ab1548d54de3c66302caa
+Author: George Toufenkjian <47486187+GeorgeT-T@users.noreply.github.com>
+Date:   Wed Nov 9 19:46:13 2022 -0500
+
+    Fixed bug
+
+commit 8078a32548cd6150e7d1c1feee68fdb3ddec0138
+Author: George Toufenkjian <47486187+GeorgeT-T@users.noreply.github.com>
+Date:   Wed Nov 9 18:59:29 2022 -0500
+
+    Completed front end and backend connection
+
+commit a96b18753db5208759fd02dd9d3190d98902bbd4
+Author: George Toufenkjian <47486187+GeorgeT-T@users.noreply.github.com>
+Date:   Wed Nov 9 16:23:53 2022 -0500
+
+    Input sanitation for front end
+
+commit 2272475bb82e485021757d2fa307bf72d3ff34a0
+Author: George Toufenkjian <47486187+GeorgeT-T@users.noreply.github.com>
+Date:   Tue Nov 8 23:06:25 2022 -0500
+
+    Completed frontend functionality
+
+commit 0fb24738e0d88276d60f71ed453a0f5d58559da0
+Author: George Toufenkjian <47486187+GeorgeT-T@users.noreply.github.com>
+Date:   Tue Nov 8 22:09:27 2022 -0500
+
+    Frontend up to certai point completed
+
+commit 81f1ba0644cab289407f22a841ab5a604d1eac28
+Author: George Toufenkjian <47486187+GeorgeT-T@users.noreply.github.com>
+Date:   Tue Nov 8 15:19:04 2022 -0500
+
+    Finished HTML Design
+
+commit 9d10eb846b68fcb279b8374fd76caea4185d5ee9
+Author: George Toufenkjian <47486187+GeorgeT-T@users.noreply.github.com>
+Date:   Sat Nov 5 10:03:00 2022 -0400
+
+    Completed get list of lists
+
+commit 8f26eddb3a047472778000f43cc90220386ead7c
+Author: George Toufenkjian <47486187+GeorgeT-T@users.noreply.github.com>
+Date:   Fri Nov 4 16:50:15 2022 -0400
+
+    Get list of lists and Delete fixed completed
+
+commit 1bddc8109ebbf61f2795fa3250fedf4190e776ad
+Author: George Toufenkjian <47486187+GeorgeT-T@users.noreply.github.com>
+Date:   Fri Nov 4 14:29:04 2022 -0400
+
+    create a new list fixed and update track list completed
+
+commit bebe1c9da1e1fcab1d2d4c653d62192a3ced3c2c
+Author: George Toufenkjian <47486187+GeorgeT-T@users.noreply.github.com>
+Date:   Fri Nov 4 11:55:48 2022 -0400
+
+    Backend storage and create list completed
+
+commit 2c0540105d4478119147387469d0c221c8959c43
+Author: George Toufenkjian <47486187+GeorgeT-T@users.noreply.github.com>
+Date:   Thu Nov 3 18:15:23 2022 -0400
+
+    Get artist id by name and track id by track title or album title completed
+
+commit bb6d2ce4c1914876b0c633e110cc245a85830927
+Author: George Toufenkjian <47486187+GeorgeT-T@users.noreply.github.com>
+Date:   Thu Nov 3 16:13:07 2022 -0400
+
+    Get genre list, get artist and get tracklist complete
+
+commit 487b424a10677214ef89a8a29449d49d524fbb17
+Author: George Toufenkjian <47486187+GeorgeT-T@users.noreply.github.com>
+Date:   Wed Nov 2 19:34:30 2022 -0400
+
+    Front end add inventory
+
+commit 7f796ba3eabff60d6a11ff5d9f264b8183c28c93
+Author: George Toufenkjian <47486187+GeorgeT-T@users.noreply.github.com>
+Date:   Wed Nov 2 18:43:23 2022 -0400
+
+    Front end list display
+
+commit 36198829683f026b521de6b23feee5aefa4a251c
+Author: George Toufenkjian <47486187+GeorgeT-T@users.noreply.github.com>
+Date:   Wed Nov 2 17:50:23 2022 -0400
+
+    Restructured api
+
+commit d3764e4749c123ea7ff49992095aaf2899b161ff
+Author: George Toufenkjian <47486187+GeorgeT-T@users.noreply.github.com>
+Date:   Wed Nov 2 16:39:39 2022 -0400
+
+    Post stock
+
+commit 69a038f264a0b0bbde78e16bcc0ea1cf2087078e
+Author: George Toufenkjian <47486187+GeorgeT-T@users.noreply.github.com>
+Date:   Wed Nov 2 16:11:12 2022 -0400
+
+    Removed duplications
+
+commit 5da382cd61c303ef9beddfd3aa76aa72e7983477
+Author: George Toufenkjian <47486187+GeorgeT-T@users.noreply.github.com>
+Date:   Wed Nov 2 15:59:41 2022 -0400
+
+    Added get part details
+
+commit 3bb2e14cb2309f7ab4b0bef1c1d081c666578a24
+Author: George Toufenkjian <47486187+GeorgeT-T@users.noreply.github.com>
+Date:   Wed Nov 2 15:41:19 2022 -0400
+
+    Added front end matter
+
+commit 5d2e69f2813616800d3986caf76f0a831602c965
+Author: George Toufenkjian <47486187+GeorgeT-T@users.noreply.github.com>
+Date:   Wed Nov 2 15:26:20 2022 -0400
+
+    Get list of parts
+
+commit 3eac7a78ad58b7badf7c29793a2a59e06d0fe2ed
+Author: George Toufenkjian <47486187+GeorgeT-T@users.noreply.github.com>
+Date:   Wed Nov 2 14:58:14 2022 -0400
+
+    Added placeholder for GET/
+
+commit 60d513c5d8b617cd2153d65d357927b328fcb110
+Author: George Toufenkjian <47486187+GeorgeT-T@users.noreply.github.com>
+Date:   Wed Nov 2 14:41:52 2022 -0400
+
+    Initial setup
+
+commit a704b45964412b6a8bb65feb978e6c03c35edd00
+Author: George Toufenkjian <47486187+GeorgeT-T@users.noreply.github.com>
+Date:   Wed Nov 2 14:31:39 2022 -0400
+
+    Initial commit
