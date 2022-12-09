@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>MOOSIC</title>
+  <meta name="description" content="MOOSIC">
+  <meta name="author" content="Miruo Lin">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Jost">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <h1>MOOSIC</h1>
+  <h4>Logged In</h4>
+  </div>
+  <div class="Retrieve-Lists">
+    <h2>List Results</h2>
+    <button id="refresh-lists-open">Refresh</button>
+    <button id="get-tracklist-reset-open">Close Info</button>
+    <ol id="list-data-open"></ol>
+  </div>
+  <div class="TrackList-Results">
+    <h3>Track List Results</h3>
+    <ol id="tracklist-data-open"></ol>
+  </div>
+  <div class="Tracks-In-List">
+    <h3>Tracks</h3>
+    <ol id="tracks-in-list-data-open"></ol>
+  </div>
+  <div class="Find-Tracks">
+    <h2>Find Track</h2>
+    <input type="text" id="find-tracks1" placeholder="track">
+    <input type="text" id="find-tracks2" placeholder="artist">
+    <button id="get-tracks-open">Find</button>
+  </div>
+  <div class="Data-Results">
+    <h3>Tracks</h3>
+    <ol id="tracks-data-open"></ol>
+  </div>
+  <div class="Retrieve-Track">
+    <h3>Track Details</h3>
+    <ol id="track-data-open"></ol>
+  </div>
+  <br>
+  <div class="Retrieve-Lists">
+    <h2>List Results</h2>
+    <button id="creator-refresh-lists">Refresh</button>
+    <button id="creator-get-tracklist-reset">Close Info</button>
+    <ol id="creator-list-data"></ol>
+  </div>
+  <div class="TrackList-Results">
+    <h3>Track List Results</h3>
+    <ol id="creator-tracklist-data"></ol>
+  </div>
+  <div class="Tracks-In-List">
+    <h3>Tracks</h3>
+    <ol id="new-tracks-in-list-data"></ol>
+  </div>
+  <div class="Create-Playlist">
+    <h2>Create Playlist</h2>
+    <input type="text" id="list-name" placeholder="Create list with name">
+    <input type="text" id="list-desc" placeholder="Add optional description">
+    <p>public?</p>
+    <input type="checkbox" id="list-public" placeholder="public?">
+    <button id="create-list">Create</button>
+  </div>
+  <div class="Add-Tracks">
+    <h2>Edit Playlist</h2>
+    <input type="text" id="new-find-list-name-new" placeholder="Change list name">
+    <input type="text" id="new-find-list-name" placeholder="Add to list with name">
+    <input type="text" id="new-track-list" placeholder="Add tracks with ID">
+    <input type="text" id="new-list-desc" placeholder="Change description">
+    <p>public?</p>
+    <input type="checkbox" id="new-list-public" placeholder="public?">
+    <button id="add-tracks">Add</button>
+  </div>
+  <div class="Delete-Tracks" id = "delete-tracks">
+    <h2>Delete List</h2>
+    <input type="text" id="find-list-name-del" placeholder="Delete list with name">
+    <button id="del-tracks">Delete</button>
+  </div>
+  <div class="Add-Review" id ="add-review-now">
+    <h2>Review Playlist</h2>
+    <input type="text" id="newest-find-list-name" placeholder="Add to list with name">
+    <input type="text" id="list-review" placeholder="Add comment">
+    <input type="text" id="list-rating" placeholder="Add rating" >
+    <button id="add-review">Add Review</button>
+  </div>
+  <br>
+  <a href="/interfacesecure">View Public Policies</a>
+  <br>
+  <br>
+</body>
+
+<form action="/logout?_method=DELETE" method="POST">
+  <button type="submit">Log Out</button>
+</form>
+<script defer src="secureScript.js"></script>
+</html>

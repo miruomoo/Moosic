@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>SE 3316 Lab 4</title>
+  <meta name="description" content="SE3316 Lab4">
+  <meta name="author" content="Miruo Lin">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Jost">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Welcome Admin</h1>
+    <h2>Users</h2>
+    <button id="viewUsers">VIEW</button>
+    <ol id="users"></ol>
+    <p>Edit User Status:</p>
+    <input type="number" id="userID" placeholder="Enter User ID:">
+    <button id="activate">ACTIVATE</button>
+    <button id="deactivate">DEACTIVATE</button>
+    <button id="gadmin">GRANT ADMIN</button>
+
+    <h2>Policies</h2>
+    <a href="/privacy">View Privacy Policy</a>
+
+    <a href="/aup">View AUP Policy</a>
+
+    <a href="/dmca">View DMCA Policy</a>
+
+    <h2>Update Policies:</h2>
+    <select name="update" id="update">
+      <option value="aup">Acceptable Use Policy</option>
+      <option value="dmca">DMCA Policy</option>
+      <option value="pp">Privacy Policy</option>
+    </select>
+    <input type="text" id="updateP" placeholder="Enter Text:">
+    <button id="updatePolicy">UPDATE POLICY</button>
+
+    <br>
+    <br>
+    <a href="/dmcaproc">DMCA Takedown Procedure for Admin</a>
+    <h2>Logging</h2>
+    <label for="logType">Select Log Type:</label>
+
+    <select name="logging" id="logType">
+      <option value="tr">Takedown Request</option>
+      <option value="in">Infringment Notice</option>
+      <option value="dc">Dispute Claim</option>
+    </select>
+  
+    <br>
+    <label for="revDate">Select Date:</label>
+    <input type="date" id="revDate" value="2022-12-01">
+    <br>
+    <input type="text" id="review" placeholder="Enter Log Associated Review:">
+    <button id="enterLog">ENTER LOG</button>
+
+    <h2>View Logs:</h2>
+    <button id="viewLogs">REFRESH</button>
+    <ol id="logs"></ol>
+
+    <h2>View Reviews:</h2>
+    <button id="displayRev">REFRESH</button>
+    <ol id="reviews"></ol>
+
+    <h2>Edit Copyrighted Reviews</h2>
+    Review:
+    <input type="text" id="comment" placeholder="Enter Review Comment">
+    <button id="hideRev">HIDE</button>
+    <button id="showRev">SHOW</button>
+    <br>
+    <br>
+</body>
+
+<form action="/logout?_method=DELETE" method="POST">
+    <button type="submit">Log Out</button>
+</form>
+<script defer src="adminScript.js"></script>  
+</html>

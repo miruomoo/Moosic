@@ -1,0 +1,71 @@
+[
+  {
+    "description": "",
+    "public": false,
+    "creator": "a",
+    "list_name": "a",
+    "track_list": [],
+    "list_duration": 0,
+    "track_list_count": 0,
+    "rating": 3,
+    "comment": [
+      {
+        "comment": "ddd",
+        "rating": 3,
+        "user": "a",
+        "date": "2022-12-07",
+        "status": "active"
+      }
+    ],
+    "date": "2022-12-07"
+  },
+  {
+    "description": "dada",
+    "public": true,
+    "creator": "a",
+    "list_name": "dw",
+    "track_list": [
+      "3",
+      "5"
+    ],
+    "list_duration": "5.7 mins",
+    "track_list_count": 2,
+    "rating": 20,
+    "comment": [
+      {
+        "comment": "yes",
+        "rating": 0,
+        "user": "a",
+        "date": "2022-12-08",
+        "status": "active"
+      },
+      {
+        "comment": "no",
+        "rating": 0,
+        "user": "a",
+        "date": "2022-12-08",
+        "status": "active"
+      },
+      {
+        "comment": "idjaif",
+        "rating": 20,
+        "user": "a",
+        "date": "2022-12-08",
+        "status": "active"
+      }
+    ],
+    "date": "2022-12-07"
+  },
+  {
+    "description": "",
+    "public": true,
+    "creator": "a",
+    "list_name": "ddd",
+    "track_list": [],
+    "list_duration": 0,
+    "track_list_count": 0,
+    "rating": 0,
+    "comment": [],
+    "date": "2022-12-07"
+  }
+]

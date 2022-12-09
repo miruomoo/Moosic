@@ -1,0 +1,30 @@
+<link href= "/views/style.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Jost">
+<h1>MOOSIC</h1>
+<br>
+<h1>Login</h1>
+<% if (messages.error) { %>
+  <%= messages.error %>
+<% } %>
+<form action="/login" method="POST">
+  <div>
+    <label for="email">Email</label>
+    <input type="email" id="email" name="email" required>
+  </div>
+  <div>
+    <label for="password">Password</label>
+    <input type="password" id="password" name="password" required>
+  </div>
+  <button id="sub" type="submit">Login</button>
+</form>
+
+
+
+<a href="/register">Register</a>
+<a href="/changepassword">Change Password</a>
+<a href="/open">Login as Guest</a>
+
+<br>
+<br>
+
+<script defer src="verifyScript.js"></script>

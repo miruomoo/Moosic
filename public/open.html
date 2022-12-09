@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>MOOSIC</title>
+  <meta name="description" content="MOOSIC">
+  <meta name="author" content="Miruo Lin">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Jost">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <h1>Small World</h1>
+  <p>Welcome guest user! Search and view tracks, or create an account to add playlists and reviews.</p>
+  <a href="/login">Login as User</a>
+  <div class="Retrieve-Lists">
+    <h2>List Results</h2>
+    <button id="refresh-lists">Refresh</button>
+    <button id="get-tracklist-reset">Close Info</button>
+    <ol id="list-data"></ol>
+  </div>
+  <div class="TrackList-Results">
+    <h3>Track List Results</h3>
+    <ol id="tracklist-data"></ol>
+  </div>
+  <div class="Tracks-In-List">
+    <h3>Tracks</h3>
+    <ol id="tracks-in-list-data"></ol>
+  </div>
+  <div class="Find-Tracks">
+    <h2>Find Track</h2>
+    <input type="text" id="find-tracks1" placeholder="track">
+    <input type="text" id="find-tracks2" placeholder="artist">
+    <button id="get-tracks">Find</button>
+  </div>
+  <div class="Data-Results">
+    <h3>Tracks</h3>
+    <ol id="tracks-data"></ol>
+  </div>
+  <div class="Retrieve-Track">
+    <h3>Track Details</h3>
+    <ol id="track-data"></ol>
+  </div>
+  <br>
+  <a href="/interface">View Public Policies</a>
+  <script defer src="openScript.js"></script>
+
+</body>
+
+</html>

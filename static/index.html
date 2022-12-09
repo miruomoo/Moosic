@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>SE 3316 Lab 4</title>
+  <meta name="description" content="MOOSIC">
+  <meta name="author" content="Miruo Lin">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Jost">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <h1>Toufify</h1>
+  </div>
+  <div class="Search-Music-Data">
+    <h2>Search Music Data:</h2>
+    <input type="text" id="search-track" placeholder="Search by track or album title">
+    <button id="get-trackID">Find Track</button>
+    <input type="text" id="search-artist" placeholder="Search by artist name">
+    <button id="get-artistID">Find Artist</button>
+  </div>
+  <div class="Data-Results">
+    <h3>Music Data Results</h3>
+    <ol id="music-data"></ol>
+  </div>
+  <div class="Find-Artist">
+    <h2>Find Artist Details:</h2>
+    <input type="text" id="find-list" placeholder="Find artist details with artist id">
+    <button id="get-artist">Find</button>
+  </div>
+  <div class="Retrieve-Artist">
+    <h3>Artist Details</h3>
+    <ol id="artist-data"></ol>
+  <div class="Find-Track">
+    <h2>Find Track Details:</h2>
+    <input type="text" id="find-track" placeholder="Find track details with track id">
+    <button id="get-track">Find</button>
+  </div>
+  <div class="Retrieve-Track">
+    <h3>Track Details</h3>
+    <ol id="track-data"></ol>
+  </div>
+  <div class="Create-Playlist">
+    <h2>Create Playlist:</h2>
+    <input type="text" id="list-name" placeholder="Create list with name">
+    <button id="create-list">Create</button>
+  </div>
+  <div class="Add-Tracks">
+    <h2>Add Tracks:</h2>
+    <input type="text" id="find-list-name" placeholder="Add to list with name">
+    <input type="text" id="track-list" placeholder="Add tracks with ID">
+    <button id="add-tracks">Add</button>
+  </div>
+  <div class="Retrieve-TrackList">
+    <h2>Retrieve Track List:</h2>
+    <input type="text" id="search-tracklist" placeholder="Find track list of list with name">
+    <button id="get-tracklist">Find</button>
+  </div>
+  <div class="TrackList-Results">
+    <h3>Track List Results</h3>
+    <ol id="tracklist-data"></ol>
+  </div>
+  <div class="Delete-Tracks">
+    <h2>Delete List:</h2>
+    <input type="text" id="find-list-name-del" placeholder="Delete list with name">
+    <button id="del-tracks">Delete</button>
+  </div>
+  <div class="Retrieve-Lists">
+    <h2>List Results:</h2>
+    <button id="refresh-tracks">Refresh</button>
+    <ol id="list-data"></ol>
+  </div>
+  <div class="Retrieve-Genres">
+    <h2>All Genres:</h2>
+    <button id="refresh-genres">Refresh</button>
+    <ol id="genre-data"></ol>
+  </div>
+</body>
+<script defer src="script.js"></script>
+</html>

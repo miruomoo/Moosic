@@ -1,0 +1,195 @@
+
+html {
+  background-color: #ffffff;
+  font-size: 20px;
+  font-family: bungee, sans-serif;
+  text-align: center;
+}
+
+h1 {
+  color: #000000;
+  font-size: 80px;
+  position: relative;
+  width: 600px;
+  left: 50px;
+  padding: 25px 2px 25px 2px;
+  margin: 25px 2px 20px 2px;
+}
+
+h2{
+  font-size:30px
+}
+
+h3{
+  font-size:15px
+}
+
+button{
+  height: 50px;
+  float:center;
+  background: black;
+  color: white;
+  font-family: bungee, sans-serif;
+  font-size:"30px";
+  border-radius: 3px;
+  margin: 5px;
+}
+
+button:hover{
+  float:center;
+  background: white;
+  color: black;
+  font-family: bungee, sans-serif;
+  font-size:"40px";
+  border-radius: 3px;
+  margin: 5px;
+  cursor: pointer;
+}
+
+ol {
+  margin:auto;
+  display: flex;
+  flex-wrap: wrap;
+  width: 1000px;
+  row-gap: 20px;
+  column-gap: 20px;
+}
+
+li{
+  margin:10px;
+  font-size: 10px;
+  display:inline-block;
+  border:2px solid #000;
+  border-radius: 20px;
+  padding:20px
+}
+
+.Search-Music-Data {
+  background-color: #d7d7d7;
+  padding: 20px;
+  border: 3px solid white;
+  border-radius: 30px;
+}
+
+.Search-Music-Data input {
+  margin-left: 40px;
+  margin-bottom: 10px;
+  width: 300px;
+  height: 45px;
+  font-size: 20px;
+  font-family: bungee, sans-serif;
+  border: 2px solid rgb(198, 198, 198);
+  border-radius: 3px;
+}
+
+.Create-Playlist {
+  background-color: #d7d7d7;
+  padding: 20px;
+  border: 3px solid white;
+  border-radius: 30px;
+}
+
+.Create-Playlist input {
+  margin-left: 40px;
+  margin-bottom: 10px;
+  width: 300px;
+  height: 45px;
+  font-size: 20px;
+  font-family: bungee, sans-serif;
+  border: 2px solid rgb(198, 198, 198);
+  border-radius: 3px;
+}
+
+.Add-Tracks input {
+  margin-left: 40px;
+  margin-bottom: 10px;
+  width: 300px;
+  height: 45px;
+  font-size: 20px;
+  font-family: bungee, sans-serif;
+  border: 2px solid rgb(198, 198, 198);
+  border-radius: 3px;
+}
+
+.Delete-Tracks {
+  background-color: #d7d7d7;
+  padding: 20px;
+  border: 3px solid white;
+  border-radius: 30px;
+}
+
+.Delete-Tracks input {
+  margin-left: 40px;
+  margin-bottom: 10px;
+  width: 300px;
+  height: 45px;
+  font-size: 20px;
+  font-family: bungee, sans-serif;
+  border: 2px solid rgb(198, 198, 198);
+  border-radius: 3px;
+}
+
+.Find-List input {
+  margin-left: 40px;
+  margin-bottom: 10px;
+  width: 300px;
+  height: 45px;
+  font-size: 20px;
+  font-family: bungee, sans-serif;
+  border: 2px solid rgb(198, 198, 198);
+  border-radius: 3px;
+}
+
+.Find-Artist {
+  background-color: #d7d7d7;
+  padding: 20px;
+  border: 3px solid white;
+  border-radius: 30px;
+}
+
+.Find-Artist input {
+  margin-left: 40px;
+  margin-bottom: 10px;
+  width: 300px;
+  height: 45px;
+  font-size: 20px;
+  font-family: bungee, sans-serif;
+  border: 2px solid rgb(198, 198, 198);
+  border-radius: 3px;
+}
+
+.Find-Track {
+  background-color: #d7d7d7;
+  padding: 20px;
+  border: 3px solid white;
+  border-radius: 30px;
+}
+
+.Find-Track input{
+  margin-left: 40px;
+  margin-bottom: 10px;
+  width: 300px;
+  height: 45px;
+  font-size: 20px;
+  font-family: bungee, sans-serif;
+  border: 2px solid rgb(198, 198, 198);
+  border-radius: 3px;
+}
+
+.Retrieve-TrackList{
+  background-color: #d7d7d7;
+  padding: 20px;
+  border: 3px solid white;
+  border-radius: 30px;
+}
+
+.Retrieve-TrackList input {
+  margin-left: 40px;
+  margin-bottom: 10px;
+  width: 300px;
+  height: 45px;
+  font-size: 20px;
+  font-family: bungee, sans-serif;
+  border: 2px solid rgb(198, 198, 198);
+  border-radius: 3px;
+}

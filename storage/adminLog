@@ -1,0 +1,22 @@
+[
+  {
+    "type": "tr",
+    "date": "2022-12-03",
+    "review": "Beatles"
+  },
+  {
+    "type": "in",
+    "date": "2022-10-09",
+    "review": "Joji"
+  },
+  {
+    "type": "dc",
+    "date": "2022-11-23",
+    "review": "Kanye"
+  },
+  {
+    "type": "in",
+    "date": "2022-12-13",
+    "review": "sadsadsadad"
+  }
+]
