@@ -10,7 +10,7 @@
     "type": "git",
     "url": " "
   },
-  "author": "George Toufenkjian",
+  "author": "Miruo Lin",
   "license": "ISC",
   "dependencies": {
     "bcrypt": "^5.1.0",
