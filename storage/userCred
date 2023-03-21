@@ -24,14 +24,6 @@
     "ver": "done"
   },
   {
-    "id": "1670094820231",
-    "name": "george",
-    "email": "george@touf",
-    "password": "$2b$10$M2xw83FxMop.5VAcSd1mbuKO8ShQB/wK7HsZkxpM9nU77q/RdaVTq",
-    "status": "active",
-    "ver": "done"
-  },
-  {
     "id": "1670272158108",
     "name": "d",
     "email": "d@d",
@@ -60,14 +52,6 @@
     "name": "m",
     "email": "m@m",
     "password": "$2b$10$n8A8EvHYEg0ATGOgy4oVouwfMWfrC8wRts7MJQQok8LwM3ZQHgH8u",
-    "status": "active",
-    "ver": "done"
-  },
-  {
-    "id": "1670282291476",
-    "name": "george",
-    "email": "george@george",
-    "password": "$2b$10$62bWurZ0b51/5y8gqOuMTeUwJrtrIbssyIlOCUorDmkVWWOyVhFbq",
     "status": "active",
     "ver": "done"
   },
