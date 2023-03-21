@@ -23,4 +23,14 @@ Admin:
 - Admin can block viewing of contested reviews.
 
 
-Created off group lab assignment with George Toufenkijian (https://github.com/GeorgeT-T)
+Created in collaboration with George Toufenkijian (https://github.com/GeorgeT-T)
+
+To Run:
+
+<mark> 1. Download CSVs from https://arxiv.org/abs/1612.01840 </mark>
+
+2. $ npm i
+
+3. $ node index.js
+
+4. Site available on http://localhost:3000/
