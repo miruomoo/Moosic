@@ -4,7 +4,9 @@ Back-end: Node.js with Key-File-Storage database and Passport.js authentication
 
 Front-end: HTML/CSS/JavaScript
 
-![Screenshot](screenshots/login.JPG)
+![Screenshot](screenshots/login.JPG|width=100)
+![Screenshot](screenshots/admin.JPG)
+![Screenshot](screenshots/user.JPG)
 
 FEATURES
 
