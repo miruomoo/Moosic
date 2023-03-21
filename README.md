@@ -4,9 +4,9 @@ Back-end: Node.js with Key-File-Storage database and Passport.js authentication
 
 Front-end: HTML/CSS/JavaScript
 
-<img src="screenshots/login.jpg" alt="login" width="500"/>
-<img src="screenshots/admin.jpg" alt="admin" width="500"/>
-<img src="screenshots/user.jpg" alt="user" width="500"/>
+<img src="./screenshots/login.JPG" alt="login" width="80%"/>
+<img src="./screenshots/admin.JPG" alt="admin" width="80%"/>
+<img src="./screenshots/user.JPG" alt="user" width="80%"/>
 
 FEATURES
 
@@ -31,7 +31,7 @@ Created in collaboration with George Toufenkijian (https://github.com/GeorgeT-T)
 
 To Run:
 
-<mark> 1. Download CSVs from https://arxiv.org/abs/1612.01840 </mark>
+1. Download CSVs from https://arxiv.org/abs/1612.01840 and store in folder named "data"
 
 2. $ npm i
 
