@@ -44,25 +44,25 @@ const tracks = [];
 var user = [];
 
 // Functions to parse CSV data
-fs.createReadStream(__dirname + '/lab4-data/genres.csv')
+fs.createReadStream(__dirname + '/data/genres.csv')
   .pipe(csv({}))
   .on('data', (data) => genres.push(data))
   .on('end', () => {
   });
 
-fs.createReadStream(__dirname + '/lab4-data/raw_albums.csv')
+fs.createReadStream(__dirname + '/data/raw_albums.csv')
   .pipe(csv({}))
   .on('data', (data) => albums.push(data))
   .on('end', () => {
   });
 
-fs.createReadStream(__dirname + '/lab4-data/raw_artists.csv')
+fs.createReadStream(__dirname + '/data/raw_artists.csv')
   .pipe(csv({}))
   .on('data', (data) => artists.push(data))
   .on('end', () => {
   });
 
-fs.createReadStream(__dirname + '/lab4-data/raw_tracks.csv')
+fs.createReadStream(__dirname + '/data/raw_tracks.csv')
   .pipe(csv({}))
   .on('data', (data) => tracks.push(data))
   .on('end', () => {
